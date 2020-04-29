@@ -1,0 +1,27 @@
+{
+    "name": "fsd-ui-components-pug-scss",
+    "version": "1.0.0",
+    "description": "FSD frontend education program. The 2nd task",
+    "main": "./src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leogip/fds-ui-components.git"
+    },
+    "keywords": [
+        "ui",
+        "library",
+        "exam",
+        "test",
+        "frontend"
+    ],
+    "author": "Oleg Bolshov <bolshovdev@yandex.ru>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/leogip/fds-ui-components/issues"
+    },
+    "homepage": "https://github.com/leogip/fds-ui-components.git#readme",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "start": "webpack-dev-server --mode=development --env.port=8000"
+    }
+}
